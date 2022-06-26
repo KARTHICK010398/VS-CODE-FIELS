@@ -1,0 +1,87 @@
+
+.SUB{
+    width: 110px;
+    background-color: rgb(226, 19, 19);
+    border-radius: 7px;
+    border: none;
+    height: 40px;
+    color: aliceblue;
+    cursor:pointer;
+}
+.SUB:hover{
+background-color: rgb(226, 72, 72);
+}
+.JOIN{
+    width: 70px;
+    height: 40px;
+    color: rgb(65, 65, 212);
+    border-radius: 7px;
+    border-color: rgb(202, 202, 221);
+    border-style: solid;
+    margin-left: 20px;
+    cursor: pointer;
+    border-width: -1px;
+    font-weight: bold;
+    transition: background-color 1s;
+}
+.JOIN:hover{
+background-color: rgb(27, 89, 204);
+color: aliceblue;
+}
+.TW:hover{
+background-color: rgb(27, 89, 204);
+color: aliceblue;
+}
+.tw{
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(42, 88, 187);
+    border-radius: 17px;
+    box-shadow: 3px 3px 10px rgb(34, 136, 184);
+    
+} 
+.p1{
+    background-color: red;
+    width: 410px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 19px;
+    padding-right: 13px;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-left: 100px;
+
+    
+    
+}
+.p2{
+    background-color: rgb(247, 21, 153);
+    width: 410px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 19px;
+    padding-right: 13px;
+    border-radius: 5px;
+    font-weight:bold;
+    margin-left: 100px;
+
+    
+    
+}
+.sp1{
+    cursor: pointer;
+    margin-left: 10px;
+    
+}

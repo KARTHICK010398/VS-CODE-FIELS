@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table,th,tr,td{
+           border: 3px solid rgb(235, 13, 5);
+           border-collapse: collapse;
+           
+       }
+       .for{
+           padding: 15px;
+       }
+       .f{
+           padding-bottom: 20px;
+           
+       } 
+       .f label{
+           display: block;
+           
+       }
+       .submit{
+           padding: 7px;
+           color: red;
+           background-color: blue;
+           width: 100px;
+           border-radius: 10px;
+                   
+           
+       }
+       .sub{
+           padding-top: 10px;
+       }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>state of health</th>
+            <th colspan="2">fasting Value</th>
+            <th>after remaining</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Minimum</th>
+            <th>Normal</th>
+            <th>2 hours of eating</th>
+        </tr>
+        <tr>
+            <td>health</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less then 140</td>
+        </tr>
+        <tr>
+            <td>pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>diabetes</td>
+            <td>more then 126</td>
+            <td>not applicable</td>
+            <td>moer then 200</td>
+        </tr>
+    </table><br>
+    <form class="for">
+        <div class="f">
+        <label for="email">Email</label>
+        <input type="email"  name="email" id="email">
+    </div>
+    <div class="f">
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+    </div>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male">
+    </div>
+    <div>
+        <label for="female">Female</label>
+        <input type="radio" name="male" id="female">
+    </div>
+    <div>
+        <label for="other">Others</label>
+        <input type="radio" name="male" id="other"> 
+    </div>
+    
+    <div class="sub">
+        <input type="submit" value="submit" class="submit">
+    </div>
+    </form>
+</body>
+</html>
